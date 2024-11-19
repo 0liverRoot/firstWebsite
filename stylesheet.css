@@ -1,0 +1,97 @@
+
+
+head {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.mainHeader {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.myName {
+    font-family: Impact;
+    font-style: italic;
+    font-size: xx-large;
+    color: #05580C;
+    background-color: white;
+}
+
+.fourHeaderContainer {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: helvetica;
+    font-weight: lighter;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profilePicture {
+    height: 90%;
+    width: 90%;
+    margin-top: 25px;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+}
+
+.aboutMeContainer {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-top: -25px;
+    font-family: Helvetica;
+}
+
+.form-container {
+    margin-top: 15px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+}
+
+.favoriteThingsContainer {
+    font-family: helvetica;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.favoriteThingsPictures {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+
+.column {
+    flex: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.columnTwenty {
+    flex: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.column img {
+    vertical-align: middle;
+    padding: 4px;
+}
+
+.bestLookPhoto {
+    width: 100%;
+}
